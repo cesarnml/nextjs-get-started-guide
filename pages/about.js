@@ -1,5 +1,9 @@
-export default () => (
-  <div>
+import MyLayout from '../components/MyLayout'
+
+const About = () => (
+  <MyLayout>
     <p>This is the about page</p>
-  </div>
+  </MyLayout>
 )
+
+export default About
